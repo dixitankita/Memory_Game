@@ -1,0 +1,50 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(2,86,90,1) 35%, rgba(1,48,86,1) 100%);
+}
+.app{
+  margin-top: 2%;
+}
+
+button{
+    padding: 4px 15px;
+    color: white;
+    font-size: larger;
+    background-color: #0c0b0b;
+    border-radius: 5px;
+    margin-top: 2%;
+    margin-left: 40%;
+  }
+
+  button:hover{
+    background-color: #181818;
+  }
+  
+  .card-grid{
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 15px;
+    margin-bottom: 3%;
+  }
+
+  .turns{
+    
+    display: inline;
+    font-size: larger;
+    padding: 1%;
+    font-weight: 400;
+    border-radius: 5px;
+    text-align: center;
+    color: white;
+   
+    margin-left: 45%;
+    background-color: rgb(0, 25, 17);
+  }
